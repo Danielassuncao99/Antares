@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@900&display=swap');
+
+*{
+    
+        font-family: 'Handjet', cursive;
+    
+}
+
+.main{
+    
+    width: 98vw;
+    height: 100vw;
+    background: #f3f3f3;
+    display: flex;
+    /* eixo x */
+    justify-content: center;
+    /* eixo y */
+    align-items: center;
+    
+}
+
+
+.card{
+    /*border: 5px solid red;*/
+    width: 200px;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 200px 80px 200px;
+    background: #f3f3f3;
+    
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(1, 12, 10, 0.863);
+    color: #f3f3f3;
+}
+.card>h1{
+    
+    
+    
+    color: white;
+}
+
+.card { background-image: linear-gradient( to top,#7924A3,#4A1663,#A832E3,#B135F0, #952CC9); }
+.main { background-image: linear-gradient( to top,#7924A3,#4A1663,#A832E3,#B135F0, #952CC9); }
+
+.btn-login{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    
+    
+    background-color: #B135F0;
+    color: black;
+    border-radius: 10px;
+    border: white;
+   
+
+
+}
+.textfield{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inline;
+
+}
+
+input:focus{
+    color: blue;
+}
+input{
+
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+}
+
