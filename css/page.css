@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');     /* importou a fonte do google fontes.*/
+*{
+    margin: 0;     /* margem*/
+    padding: 0;     /* preenchimento*/
+    box-sizing: border-box;  /* dimensionamento de caixa*/
+    font-family: 'Roboto';    /*família de fontes */
+   
+}
+
+nav{
+   /* border: 2px solid red;*/
+   height: 100vh;   /* altura*/
+   width: 260px;    /*quando coloca duas propriedades iguais, a segunda vai prevalecer*/
+   width: 50vw;   /* largura*/
+   background: #0064647e;     /* fundo  ex: backgroud color - cor de fundo*/
+   position: fixed;       /* posição*/
+   top: 0;               /*  cima ou principal*/
+   left: 0;              /* esquerda*/
+
+   
+}
+.expandir{
+    /*border: 2px solid red;*/
+    height: 60px;  /* altura*/
+    width: 100%;    /* largura*/
+    display: flex;    
+    align-items: center;      /* itens de alinhamento*/   
+
+
+}
+.expandir i{
+    /*border: 2px solid red;*/
+    font-size: 30px;       /* tamanho da fonte*/ 
+    color: white;        /* cor da fonte*/
+    height:50px ;           /* altura da fonte*/
+    min-width: 78px;       /* largura minima*/
+    text-align: center;   /* alinhamento de texto*/
+    line-height: 50px;   /* Altura da linha*/
+    cursor: pointer;  /* quando colocar o mouse no icone o cursor muda*/
+
+}
+
+.expandir .text-list{
+   /* border: 2px solid red;*/
+    font-size: 22px;    /* tamanho da fonte*/
+    color: white;     /* cor da letra*/
+    font-weight: 700;      /* espessura da fonte*/
+
+
+}
+.nav-links{
+   /* border: 2px solid red;*/
+    height: 100%;               /* altura*/
+    padding: 30px 0 150px ;     /* preenchimento*/
+    overflow: auto;             /*  para fazer a barra de rolagem*/
+}
+
+.nav-links::-webkit-scrollbar{ /* scrollbar para fazer a barra de rolagem na web*/
+
+  display: none;
+}
+li{     /* li é  lista*/
+    /*border: 2px solid red;*/
+    list-style: none;        /* estilo da lista*/
+    position: relative;
+}
+li:hover{ /* hover serve para fazer efeito ao passar o cursor*/
+    background:#07e93854;
+
+}
+.icon-li{
+    display: flex;         /* mostrar*/
+    align-items: center;
+    justify-content: space-between;  /* justificar conteudo / espaço entre*/
+}
+li i{
+    height: 50px;           /* altura da fonte*/
+    color: white;       /* cor da fonte*/
+    min-width: 78px;      /* largura minima*/
+    text-align: center;   /* alinhamento de texto*/
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;   /* decoração de texto / tirou o sublinhado*/
+}
+li .text-list{
+    /*border: 2px solid red;*/
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+li .sub-menu{
+    /*border: 2px solid red;*/
+    padding: 6px 14px 80px;
+    margin-top:-18px;
+    background: #006464;
+    /*display: none;*/    /*mostrar / nenhum*/
+}
+li .sub-menu a{
+    /*border: 2px solid red;*/
+    color: white;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;   /*remover quebra de linha de texto*/
+    opacity: 0.6;   /*opacidade*/
+
+}
+li .sub-menu a:hover{
+    opacity: 1;   /*opacidade*/
+} 
+
