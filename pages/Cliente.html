@@ -1,10 +1,119 @@
 <div id="conteudo">
-    
-    <form class="form-Cliente">
-    
-        <h2>Cadastre o cliente</h2>
-    
-        <p>Preencha os campos </p>
-       
-</form>
+
+    <form class="container">
+
+        <div class="form-helder">
+
+            <h2>Cadastre o cliente</h2>
+
+            <p>Preencha os campos </p>
+
+        </div>
+        <!---->
+
+        <form class="form-body">
+
+            <div class="row mb-3">
+
+                <div class="form-float">
+
+                    <input type="text" class="form-controle col-6 col-6" id="Cep" placeholder="Digite seu Cep" maxlength="8"
+                        minlength="8" required>
+                    <label for="CEP">Digite seu CEP</label>
+
+                </div>
+            </div>
+
+            <div class="row mb-3">
+
+                <div class="form-float col-12 col-6">
+                    <input type="text" class="form-controle " id="rua" placeholder="Rua" required disabled>
+                    <label for="cep">Rua</label>
+
+                </div>
+
+
+                <div class="form-float col-12 col-6">
+
+                    <input type="text" class="form-controle " id="número"
+                        placeholder="Digite o número da sua residência" required disabled>
+                    <label for="número">Digite o número da sua residência</label>
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="form-float col-12 col-6">
+
+                    <input type="text" class="form-controle " id="complemento"
+                        placeholder="Digite o complemento" required disabled>
+                    <label for="complemento">Digite o complemento</label>
+
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="form-float col-12 col-6">
+
+                    <input type="text" class="form-controle " id="bairro" placeholder="Digite o seu bairro"
+                        required disabled>
+                    <label for="bairro">Digite o seu Bairro</label>
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="form-float col-12 col-6">
+
+                    <input type="text" class="form-controle " id="cidade" placeholder="Digite a cidade"
+                        required disabled>
+                    <label for="cidade">Digite a Cidade</label>
+
+                </div>
+            </div>
+
+
+            <div class="form-float" required disabled>
+
+                <select id="Estado">
+
+                    <option selected="Estado">Estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-button">
+
+                <button id="btm-salvar" class="btn btn-primary" type="submit">Cadastrar</button>
+            </div>
+        </form>
+
+    </form>
 </div>
