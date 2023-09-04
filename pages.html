@@ -20,10 +20,10 @@
 
         <ul class="nav-links">
             <li class="item-menu">
-                <a href="#" class="icones">
+                <a href="#" class="home">
 
-                    <i class="bi bi-house"></i>
-                    <span class="text-list">
+                    <i class="bi bi-house home"></i>
+                    <span class="text-list home">
                         Home
 
                     </span>
@@ -32,14 +32,14 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="#" class="icones">
+                <a href="#" class="Dashboard">
 
-                    <i class="bi bi-bar-chart-line"></i>
-
-
+                    <i class="bi bi-bar-chart-line Dashboard"></i>
 
 
-                    <span class="text-list">
+
+
+                    <span class="text-list Dashboard">
                         Dashboard
 
                     </span>
@@ -50,16 +50,16 @@
             <li class="item-menu">
                 <div>
                     <div class="icon-li">
-                        <a href="#" class="icones">
+                        <a href="#" class="Cliente">
 
-                            <i class="bi bi-file-person-fill"></i>
+                            <i class="bi bi-file-person-fill Cliente"></i>
 
 
-                            <span class="text-list">
+                            <span class="text-list Cliente">
                                 Cliente
 
                             </span>
-                            <span class="arrow">
+                            <span class="arrow ">
                                 <i class="bi bi-arrow-down-short"></i>
                             </span>
 
@@ -79,12 +79,12 @@
             <li class="item-menu">
                 <div>
                     <div class="icon-li">
-                        <a href="#" class="icones">
+                        <a href="#" class="Estoque">
 
-                            <i class="bi bi-box-seam"></i>
+                            <i class="bi bi-box-seam Estoque"></i>
 
 
-                            <span class="text-list">
+                            <span class="text-list Estoque">
                                 Estoque
 
                             </span>
@@ -97,8 +97,8 @@
                         <ul class="sub-menu">
 
 
-                            <li><a href="#">Consultar Produto</a></li>
-                            <li><a href="#">Consultar Produto</a></li>
+                            <li><a href="#" class="Estoque">Consultar Produto</a></li>
+                            <li><a href="#" class="Estoque">Consultar Produto</a></li>
 
 
                         </ul>
@@ -108,16 +108,16 @@
             <li class="item-menu">
                 <div>
                     <div class="icon-li">
-                        <a href="#" class="icones">
+                        <a href="#" class="Financeiro">
 
-                            <i class="bi bi-currency-dollar"></i>
+                            <i class="bi bi-currency-dollar Financeiro"></i>
 
 
-                            <span class="text-list">
+                            <span class="text-list Financeiro">
                                 Financeiro
 
                             </span>
-                            <span class="arrow">
+                            <span class="arrow Financeiro">
                                 <i class="bi bi-arrow-down-short"></i>
                             </span>
 
@@ -135,7 +135,34 @@
 
         </ul>
     </nav>
+    <div id="conteudo">
 
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(".home").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/home.html")
+        });
+
+        $(".Dashboard").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Dashboard.html")
+        });
+
+        $(".Cliente").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Cliente.html")
+        });
+
+        $(".Estoque").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Estoque.html")
+        });
+
+        $(".Financeiro").click(function () {   /* $: simbolo de referencia no JV*/
+            $("#conteudo").load("pages/Financeiro.html")
+        });
+    </script>
 </body>
 
 </html>
