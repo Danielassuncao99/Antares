@@ -45,8 +45,8 @@
     color: white;
 }
 
-.card { background-image: linear-gradient( to top,#7924A3,#4A1663,#A832E3,#B135F0, #952CC9); }
-.main { background-image: linear-gradient( to top,#7924A3,#4A1663,#A832E3,#B135F0, #952CC9); }
+.card { background-image: linear-gradient( to top,#0064647e,#0064647e,#0064647e,#0064647e, #0064647e); }
+.main { background-image: linear-gradient( to top,#0064647e,#0064647e,#0064647e,#0064647e, #0064647e); }
 
 .btn-login{
     font-size: 15px;
@@ -54,8 +54,8 @@
     padding: 10px;
     
     
-    background-color: #B135F0;
-    color: black;
+    background-color: #0064647e;
+    color: white;
     border-radius: 10px;
     border: white;
    

@@ -124,3 +124,12 @@ li .sub-menu a:hover{
 .form-floating label{
     left: 7px;
 }
+#btn-salvar{
+    background: #0064647e;
+    border: none;
+    height: 3rem ;
+    width: 8rem;
+    border-radius: 24px ;
+    margin-top: 10px;
+}
+   
