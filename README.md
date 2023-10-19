@@ -41,4 +41,4 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 O projeto está disponível em https://antares-rho-blush.vercel.app/ para visualização.
 
-Seja bem-vindo ao Clone-Sistok, e sinta-se à vontade para contribuir ou entrar em contato conosco!
+Seja bem-vindo ao Antares, e sinta-se à vontade para contribuir ou entrar em contato conosco!
